@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Calculator</h2>
+        <div class="row ">
+            <input id="result" class="result" type="text">
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-dark clearbtn" onclick="clearResult()">Clear</button>
+
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('7')">7</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('8')">8</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('9')">9</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('/')">/</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('4')">4</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('5')">5</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('6')">6</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('*')">x</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('1')">1</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('2')">2</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('3')">3</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('-')">-</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('.')">.</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('0')">0</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getResult()">=</button>
+            <button type="button" class="btn btn-outline-dark" onclick="getNumber('+')">+</button>
+        </div>
+       
+    </div>
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+
+</html>
